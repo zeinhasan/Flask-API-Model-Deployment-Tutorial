@@ -1,0 +1,180 @@
+{
+	"info": {
+		"_postman_id": "4ce6dc9a-d2da-4885-a0c2-7c0984874674",
+		"name": "TutorialFlaskAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "27943738"
+	},
+	"item": [
+		{
+			"name": "Flask Sample Normal",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/D:/Skripsi/Bismillah/Analisis/Dataset/Test/Positive/16001.jpg"
+						},
+						{
+							"key": "model_name",
+							"value": "concrate",
+							"type": "text"
+						},
+						{
+							"key": "offset",
+							"value": "7",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "112448",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:5321/predict"
+			},
+			"response": []
+		},
+		{
+			"name": "Flask Sample No UID",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/D:/Skripsi/Bismillah/Analisis/Dataset/Test/Positive/16010.jpg"
+						},
+						{
+							"key": "model_name",
+							"value": "concrate",
+							"type": "text"
+						},
+						{
+							"key": "offset",
+							"value": "7",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:5321/predict"
+			},
+			"response": []
+		},
+		{
+			"name": "Flask Sample No Offset",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/D:/Skripsi/Bismillah/Analisis/Dataset/Test/Positive/16009.jpg"
+						},
+						{
+							"key": "model_name",
+							"value": "concrate",
+							"type": "text"
+						},
+						{
+							"key": "offset",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "112448",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:5321/predict"
+			},
+			"response": []
+		},
+		{
+			"name": "Flask Sample No Model Name",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/D:/Skripsi/Bismillah/Analisis/Dataset/Test/Positive/16009.jpg"
+						},
+						{
+							"key": "model_name",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "offset",
+							"value": "7",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "112448",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:5321/predict"
+			},
+			"response": []
+		},
+		{
+			"name": "Flask Sample No Image",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": []
+						},
+						{
+							"key": "model_name",
+							"value": "concrate",
+							"type": "text"
+						},
+						{
+							"key": "offset",
+							"value": "7",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "112448",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:5321/predict"
+			},
+			"response": []
+		}
+	]
+}

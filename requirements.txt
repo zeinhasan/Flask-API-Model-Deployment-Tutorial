@@ -1,0 +1,12 @@
+Flask==2.2.2
+requests==2.28.1
+Werkzeug==2.2.2
+debugpy # Required for debugging.
+google-cloud-aiplatform
+google-cloud
+pytz
+numpy
+google-cloud-storage
+pillow
+scikit-image
+tensorflow
