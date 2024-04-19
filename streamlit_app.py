@@ -5,7 +5,7 @@ import tensorflow as tf
 
 # Dictionary mapping model name to their corresponding model files
 best_model = {
-    'concrate': 'Model\MobileNet_Modified077.h5' # You can add more models here
+    'concrate': 'Model/MobileNet_Modified077.h5' # You can add more models here
 }
 
 # Function to predict the fruit condition
