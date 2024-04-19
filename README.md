@@ -1,6 +1,9 @@
 # Flask-API-Model-Deployment-Tutorial
 Tutorial for Model Deployment using Flask on Google Cloud
 
+# Streamlit APP Demo link
+https://predict-concrate-condition-531.streamlit.app/
+
 ## Instalation Guide
 1. Download or clone this repository
 2. Unzip/extract all file
