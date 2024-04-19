@@ -5,7 +5,7 @@ import tensorflow as tf
 
 # Dictionary mapping model name to their corresponding model files
 best_model = {
-    'concrate': 'Model/MobileNet_Modified077.h5' # You can add more models here
+    'concrate': 'Model\MobileNet_Modified077.h5' # You can add more models here
 }
 
 # Function to predict the fruit condition
@@ -14,7 +14,7 @@ def predict_condition(model_name, image):
     if model_name not in best_model:
         return 'Model not found', 0
     
-    # Get model path
+    # Get model pathModel\MobileNet_Modified077.h5
     model_path = best_model[model_name]
     
     # Load the model
