@@ -10,3 +10,4 @@ google-cloud-storage
 pillow
 scikit-image
 tensorflow
+streamlit
